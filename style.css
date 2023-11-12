@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+}
+
+header {
+  background-color: rgb(200, 200, 200);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theGame {
+  background-color: rgb(200, 200, 200);
+  width: 40%;
+  height: 40vh;
+  display: grid;
+  grid-template-rows: 5fr 1fr 1fr;
+  border: 10px solid black;
+}
+
+.theGame-text,
+.theGame-input,
+.theGame-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#status {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+#ok-btn {
+  width: 100px;
+  height: 30px;
+}
+
+footer {
+  background-color: rgb(200, 200, 200);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1376px) {
+  header {
+    font-size: 1.6rem;
+  }
+
+  .theGame {
+    width: 60%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+
+  #input {
+    width: 60%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  .theGame {
+    width: 60%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  #input {
+    width: 60%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  .theGame {
+    width: 70%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+
+  #input {
+    width: 60%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  .theGame {
+    width: 80%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #input {
+    width: 60%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  .theGame {
+    width: 80%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
+  #input {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  .theGame {
+    width: 80%;
+    height: 40vh;
+  }
+
+  #status {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
+  #input {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
